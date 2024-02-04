@@ -1,5 +1,81 @@
-.container{
-    display:flex;
-    background-color: antiquewhite;
-    width: 600px;
+/*
+#D1E8E2 soft green
+
+deep teal #19747E
+
+ight sky blue #A9D6E5
+
+light gray #E2E2E2
+
+*/
+body{
+    background-color: #19747E;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+ .container{
+    width: 500px;
+    background-color: #A9D6E5;
+    padding:50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    margin: 20px auto;
+    border: 2px solid #317773 ;
+    
+} 
+
+h2{
+    text-align: center;
+    color: #317773;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.f-cal{
+    margin-top: 20px;
+    
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #317773;
+}
+
+input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #317773;
+}
+label[for="name2"]{
+    margin-top: 20px;
+}
+
+button{
+    background-color: #19747E;
+    color: white;
+    padding:  10px 20px;
+    border: #19747E;
+    align-items: center;
+    margin-top:20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+#result{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #19747E;
 }
