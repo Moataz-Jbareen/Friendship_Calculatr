@@ -41,6 +41,8 @@ h2{
 
 .f-cal{
     margin-top: 20px;
+    text-align: center;
+    align-items: center;
     
 }
 
@@ -71,6 +73,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
     
+    
 
 }
 
@@ -78,4 +81,5 @@ button{
     margin-top: 10px;
     font-size: 25px;
     color: #19747E;
+    text-align: center;
 }
